@@ -20,3 +20,10 @@ Coloca pra rodar em um container
 ```bash
 heroku stack:set container
 ```
+
+Realiza o deploy no heroku
+```bash
+git add .
+git commit -m 'Deploy pro heroku'
+git push heroku master
+```
