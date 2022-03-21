@@ -3,6 +3,12 @@ Cria app no heroku
 `heroku create <nome-do-deploy>`
 ````
 
+Cria app para front-end com build pack
+> $APP_NAME representa o nome do deploy
+```bash
+heroku create $APP_NAME --buildpack mars/create-react-app
+```
+
 Visualiza remotes do git
 
 ```bash
